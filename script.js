@@ -152,41 +152,36 @@ footerLink.addEventListener('click', function () {
 
 /* ----- DOWNLOAD PDF MAVAFIZA CV ----- */
 
-document.getElementById('downloadButton').addEventListener('click', function() {
-  // URL del archivo PDF que se va a descargar
-  const pdfUrl = './assets/mavafiza.pdf';
+// document.getElementById('downloadButton').addEventListener('click', function() {
+//   // URL del archivo PDF que se va a descargar
+//   const pdfUrl = './assets/mavafiza.pdf';
 
-  // Nombre del archivo al descargar
-  const pdfFileName = 'mavafiza.pdf';
+//   // Nombre del archivo al descargar
+//   const pdfFileName = 'mavafiza.pdf';
 
-  // Crea un elemento <a> temporal
-  const link = document.createElement('a');
-  link.href = pdfUrl;
-  link.download = pdfFileName;
+//   // Crea un elemento <a> temporal
+//   const link = document.createElement('a');
+//   link.href = pdfUrl;
+//   link.download = pdfFileName;
 
-  // Simula un clic en el enlace para iniciar la descarga
-  link.click();
+//   // Simula un clic en el enlace para iniciar la descarga
+//   link.click();
 
-  // Libera el elemento <a> temporal
-  document.body.removeChild(link);
-});
+//   // Libera el elemento <a> temporal
+//   document.body.removeChild(link);
+// });
 
 
-document.getElementById('downloadButtoncv').addEventListener('click', function() {
-  // URL del archivo PDF que se va a descargar
-  const pdfUrl = './assets/mavafiza.pdf';
+// document.getElementById('downloadButtoncv').addEventListener('click', function() {
+//   const pdfUrl = './assets/mavafiza.pdf';
 
-  // Nombre del archivo al descargar
-  const pdfFileName = 'mavafiza.pdf';
+//   const pdfFileName = 'mavafiza.pdf';
 
-  // Crea un elemento <a> temporal
-  const link = document.createElement('a');
-  link.href = pdfUrl;
-  link.download = pdfFileName;
+//   const link = document.createElement('a');
+//   link.href = pdfUrl;
+//   link.download = pdfFileName;
 
-  // Simula un clic en el enlace para iniciar la descarga
-  link.click();
+//   link.click();
 
-  // Libera el elemento <a> temporal
-  document.body.removeChild(link);
-});
+//   document.body.removeChild(link);
+// });
