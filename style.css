@@ -661,6 +661,11 @@ footer {
     padding-block: 40px 60px;
 }
 
+.footer-logo {
+    position: relative;
+    width: 180px;
+}
+
 /* .top-footer {
     font-size: 25px;
     font-weight: 600;
