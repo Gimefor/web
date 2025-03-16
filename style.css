@@ -481,7 +481,7 @@ h3 {
 
 .project-box>i {
     font-size: 50px;
-    color: #00B5E7;
+    color: var(--first-color);
     margin-bottom: 25px;
 }
 
