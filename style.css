@@ -10,10 +10,10 @@
     --text-color-third: rgb(8, 120, 69);
 
     --first-color: rgb(8, 120, 69);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color-hover: rgb(22, 156, 37);
 
     --second-color: rgba(8, 120, 69, 0.666);
-    --third-color: rgb(192, 166, 49);
+    /* --third-color: rgb(192, 166, 49); */
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
@@ -250,11 +250,11 @@ nav {
     border-radius: 50%;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    color: #000;
+    color: var(--first-color);
 }
 
 .icon:hover {
-    color: var(--first-color);
+    color: var(--first-color-hover);
 }
 
 .border {
@@ -263,7 +263,7 @@ nav {
 
 .hire-me {
     text-decoration: none;
-    color: #f1f1f1;
+    color: var(--color-white);
 }
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image {
@@ -373,7 +373,7 @@ nav {
 }
 
 .top-header span {
-    color: #999;
+    color: var(--text-color-second);
 }
 
 h3 {
@@ -401,7 +401,7 @@ h3 {
 .about-info p {
     text-align: center;
     font-size: 15px;
-    color: #777;
+    color: var(--text-color-second);
 }
 
 .about-btn button {
@@ -414,7 +414,7 @@ h3 {
 }
 
 .about-btn button:hover {
-    background: var(--first-color-hover);
+    background: var(--text-color-second);
 }
 
 .education,
@@ -481,7 +481,7 @@ h3 {
 
 #values-section .skills-list span {
     background-color: #4CAF50; 
-    color: white; 
+    color: var(--color-white); 
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
@@ -527,7 +527,7 @@ h3 {
 
 .project-box label {
     font-size: 15px;
-    color: #777;
+    color: var(--text-color-second);
 }
 
 .project-box::after,
@@ -594,7 +594,7 @@ h3 {
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i {
-    color: #777;
+    color: var(--text-color-second);
     z-index: 2;
 }
 
@@ -699,14 +699,14 @@ footer {
 
 /* Estilo inicial del enlace (verde claro) */
 .bottom-footer a {
-    color: darkgreen; /* Verde oscuro */
+    color: var(--text-color-third); /* Verde oscuro */
     text-decoration: none;
     transition: color 0.3s ease; /* Transición suave para el cambio de color */
 }
 
 /* Estilo cuando el enlace ha sido clicado (verde oscuro) */
 .bottom-footer a.clicked {
-    color: rgb(58, 145, 58); /* Verde claro */
+    color: var(--text-color-third); /* Verde claro */
 }
 
 
