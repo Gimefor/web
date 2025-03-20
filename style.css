@@ -289,8 +289,8 @@ nav {
     align-content: center;
     min-height: 80vh;
     width: 50%;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
@@ -299,7 +299,7 @@ nav {
     align-items: center;
     align-content: center;
     margin: auto 0;
-    width: auto;
+    width: 380px;
     height: 380px;
     animation: imgFloat 7s ease-in-out infinite;
     
