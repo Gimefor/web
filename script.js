@@ -92,7 +92,7 @@ const srLeft = ScrollReveal({
 
 srLeft.reveal('.about-info', { delay: 100 })
 srLeft.reveal('.contact-info', { delay: 100 })
-srLeft.reveal('.certifications', { delay: 100 })
+srLeft.reveal('.collaborators', { delay: 100 })
 
 /* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({

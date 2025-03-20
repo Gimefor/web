@@ -442,8 +442,8 @@ h3 {
     background: var(--text-color-second);
 }
 
-.collaborators,
-.certifications {
+/* .certifications , */
+.collaborators{
     position: relative;
     display: flex;
     align-items: center;
@@ -721,6 +721,15 @@ footer {
 .bottom-footer {
     font-size: 14px;
     margin-top: 10px;
+    text-align: center; /* Centra el texto */
+    padding-inline: 20px;
+}
+
+.bottom-footer p {
+    margin: 0; /* Elimina márgenes innecesarios */
+    line-height: 1.4; /* Mejora la legibilidad */
+    word-wrap: break-word; /* Asegura que las palabras largas se ajusten */
+    overflow-wrap: break-word; /* Rompe palabras largas si es necesario */
 }
 
 /* Estilo inicial del enlace (verde claro) */
@@ -847,7 +856,8 @@ footer {
 
     .about-info,
     .contact-info,
-    .certifications {
+    /* .certifications,  */
+    .collaborators {
         width: 100%;
     }
 
