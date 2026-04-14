@@ -825,7 +825,7 @@ footer {
         justify-content: center;
         min-height: 150px;
         width: 100%;
-        margin-top: 65px;
+        margin-top: 80px;
     }
 
     .image,
@@ -881,7 +881,8 @@ footer {
 
 @media only screen and (max-width: 540px) {
     .featured-name {
-        font-size: 20px;
+        margin-top: 140px;
+        font-size: 15px;
     }
 
     .project-box {
