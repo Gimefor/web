@@ -230,7 +230,7 @@ nav {
 }
 
 .typedText {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: var(--text-color-third);
 }
 
@@ -881,7 +881,7 @@ footer {
 
 @media only screen and (max-width: 540px) {
     .featured-name {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .project-box {
