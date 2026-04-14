@@ -1,0 +1,21 @@
+{
+    "home": "Inicio",
+    "about": "Acerca de",
+    "publications": "Publicaciones",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "typedText": [
+      "Cambio Climático",
+      "Conservación de la Biodiversidad",
+      "Alternativas para el Desarrollo Sostenible",
+      "Economía Ambiental", "Sostenibilidad de Plantaciones Forestales", "Dinámica de los Bosques Tropicales", "Inventario de Recursos Vegetales y Biometría", "Impacto Ambiental", "Desarrollo Forestal Participativo", "Mejoramiento Genético de Especies Forestales", "Silvicultura de Bosques Tropicales", "Rendimiento de Plantaciones Forestales", "Planificación de la Cosecha"
+    ],
+    "featuredText": {
+      "title": "Grupo de Investigación en Manejo Múltiple de Ecosistemas Forestales - GIMEFOR.",
+      "description": "Desde 1995, GIMEFOR ha unido a un equipo multidisciplinario de especialistas comprometidos con la investigación y actividades de divulgación."
+    },
+    "aboutUs": {
+      "mission": "Nuestra misión es promover la investigación, conservación y uso sostenible de los ecosistemas forestales.",
+      "vision": "Ser una referencia global en la investigación y manejo sostenible de los ecosistemas forestales."
+    }
+  }

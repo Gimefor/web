@@ -49,7 +49,8 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 let typingEffect = new Typed(".typedText", {
-  strings: ["Climate Change", "Biodiversity Conservation", "Alternatives for Sustainable Development", "Environmental Economics", "Sustainability of Forest Plantations", "Tropical Forest Dynamics", "Inventory of Vegetation Resources and Biometry", "Environmental Impact", "Participatory Forest Development", "Genetic Improvement of Forest Species", "Silviculture of Tropical Forests", "Performance of Forest Plantations", "Harvesting Planning"],
+  // strings: ["Climate Change", "Biodiversity Conservation", "Alternatives for Sustainable Development", "Environmental Economics", "Sustainability of Forest Plantations", "Tropical Forest Dynamics", "Inventory of Vegetation Resources and Biometry", "Environmental Impact", "Participatory Forest Development", "Genetic Improvement of Forest Species", "Silviculture of Tropical Forests", "Performance of Forest Plantations", "Harvesting Planning"],
+  strings: ["Cambio Climático", "Conservación de la Biodiversidad", "Alternativas para el Desarrollo Sostenible", "Economía Ambiental", "Sostenibilidad de las Plantaciones Forestales", "Dinámica de Bosques Tropicales", "Inventario de Recursos Vegetales y Biometría", "Impacto Ambiental", "Desarrollo Forestal Participativo", "Mejoramiento Genético de Especies Forestales", "Silvicultura de Bosques Tropicales", "Rendimiento de Plantaciones Forestales", "Planificación de la Cosecha Forestal"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,

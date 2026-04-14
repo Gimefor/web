@@ -1,0 +1,21 @@
+{
+    "home": "Home",
+    "about": "About",
+    "publications": "Publications",
+    "projects": "Projects",
+    "contact": "Contact",
+    "typedText": [
+      "Climate Change",
+      "Biodiversity Conservation",
+      "Alternatives for Sustainable Development",
+      "Environmental Economics"
+    ],
+    "featuredText": {
+      "title": "Research Group on the Multiple Management of Forest Ecosystems - GIMEFOR.",
+      "description": "Since 1995, GIMEFOR has united a multidisciplinary team of specialists committed to conducting research and outreach activities."
+    },
+    "aboutUs": {
+      "mission": "Our mission is to promote research, conservation, and sustainable use of forest ecosystems.",
+      "vision": "To be a global reference in the research and sustainable management of forest ecosystems."
+    }
+  }
